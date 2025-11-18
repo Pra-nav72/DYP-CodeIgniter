@@ -1,0 +1,438 @@
+CRITICAL - 2025-11-14 13:26:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "index,php"
+[Method: GET, Route: index,php]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('index,php')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('index,php')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:48:24 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:54:09 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:16 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:18 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:18 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:19 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:19 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 13:56:20 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\XAMPP\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: wab/pranav]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 14:53:31 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: intro]
+in APPPATH\Views\pass_data.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pass_data', [], true)
+ 4 APPPATH\Controllers\Welcome.php(32): view('pass_data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->intro()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 14:53:31 --> [Caused by] ErrorException: Undefined variable $skill
+in APPPATH\Views\pass_data.php on line 14.
+ 1 APPPATH\Views\pass_data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skill', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\pass_data.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\pass_data.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pass_data', [], true)
+ 5 APPPATH\Controllers\Welcome.php(32): view('pass_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->intro()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:01:37 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:02:04 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:02:05 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:03:09 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:03:10 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:08:58 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:10:55 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:10:55 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:10:56 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:10:56 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:11:37 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:11:38 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:15:02 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:17:12 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:17:13 --> ErrorException: Undefined variable $user
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 10.
+ 1 APPPATH\Views\tables.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\XAMPP\\htdocs\\project1\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Tables.php(30): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:15 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:15 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:15 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:16 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:17 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:46 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:46 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:47 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:47 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 18:18:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tables]
+in APPPATH\Controllers\Tables.php on line 29.
+ 1 APPPATH\Controllers\Tables.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\XAMPP\\htdocs\\project1\\app\\Controllers\\Tables.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tables->tables()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

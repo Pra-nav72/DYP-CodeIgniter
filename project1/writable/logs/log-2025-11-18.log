@@ -1,0 +1,956 @@
+CRITICAL - 2025-11-18 17:50:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\xampp\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: welcome/about]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 17:51:17 --> ArgumentCountError: Too few arguments to function App\Controllers\Welcome::about(), 0 passed in F:\xampp\htdocs\project1\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: welcome/about]
+in APPPATH\Controllers\Welcome.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->about()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:09:34 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:32 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:33 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:34 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:34 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:35 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:10:35 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(14): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:13:35 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:13:36 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:14:34 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:14:36 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:14:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:14:58 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:14:58 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:21 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:22 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:22 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:22 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:22 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:23 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:57 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:58 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:58 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:15:58 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(15): view('stu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:17:52 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(16): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:19:31 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:19:32 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:19:32 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:19:33 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:20:28 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:20:29 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:20:29 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:20:29 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:20:30 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 10.
+ 1 APPPATH\Views\stu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:21:57 --> ErrorException: Undefined variable $name
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 6.
+ 1 APPPATH\Views\stu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(21): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:26:23 --> ErrorException: Undefined variable $data
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:27:10 --> ErrorException: Undefined variable $data
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:27:11 --> ErrorException: Undefined variable $data
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:29:13 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 13.
+ 1 APPPATH\Views\stu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:29:14 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 13.
+ 1 APPPATH\Views\stu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:29:14 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 13.
+ 1 APPPATH\Views\stu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:29:15 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 13.
+ 1 APPPATH\Views\stu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:03 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:04 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:04 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:05 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:23 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:23 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:23 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:24 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:30:24 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:04 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:32 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:32 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:33 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:33 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:33 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:34 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:56 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:56 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:57 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:32:58 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 12.
+ 1 APPPATH\Views\stu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 18:34:18 --> ErrorException: Undefined variable $department
+[Method: GET, Route: students]
+in APPPATH\Views\stu.php on line 11.
+ 1 APPPATH\Views\stu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('F:\\xampp\\htdocs\\project1\\app\\Views\\stu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stu', [], true)
+ 5 APPPATH\Controllers\Students.php(17): view('stu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Students->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
