@@ -8,4 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('hello', 'Hello::index');
 $routes->get('hello/gb', 'Hello::farewell');
-
+$routes->get('cal', 'Calculator::index');
+$routes->post('cal_result', 'Calculator::calculate');

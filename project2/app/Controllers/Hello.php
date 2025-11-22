@@ -11,6 +11,7 @@
         public function farewell(){
             echo "goodbye!";
         }
+    
     }
 
 ?>
